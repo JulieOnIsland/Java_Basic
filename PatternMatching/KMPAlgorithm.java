@@ -53,6 +53,7 @@ public class KMPAlgorithm {
 				if (j == pt.length()-1) {
 					// 패턴을 찾았다
 					System.out.println((i-j)+"번째 인덱스에서 패턴을 찾았습니다.");
+					j = pi[j];
 				} else {
 					// 패턴의 길이까지 오지 않았다면 계속 진행시켜!
 					j++;
